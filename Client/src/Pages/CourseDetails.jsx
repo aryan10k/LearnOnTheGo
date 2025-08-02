@@ -28,7 +28,7 @@ const CourseDetails = () => {
             }
         }
         getCourseLecture()
-    })
+    },[])
     return (
         <div className='bg-gray-100 md:p-10 '>
             <Card className="max-w-7xl rounded-md mx-auto bg-white shadow-md pt-5 mt-14">

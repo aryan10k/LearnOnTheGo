@@ -79,7 +79,7 @@ const Course = () => {
             }
         }
         getCreatorCourse()
-    })
+    },[])
     return (
         <div className='md:p-10 p-4 w-full h-screen'>
             <Button className="bg-green-600" onClick={() => navigate('create')}>Create Course</Button>
