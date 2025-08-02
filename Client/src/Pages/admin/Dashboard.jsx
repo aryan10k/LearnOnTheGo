@@ -20,7 +20,7 @@ const Dashboard = () => {
           {/* Welcome Section */}
           <section className="bg-green-700 text-white rounded-lg p-6">
             <h1 className="text-2xl font-bold">Welcome back, {user.name}!</h1>
-            <a href="http://localhost:5173/courses"  className="mt-4 inline-block bg-white text-blue-500 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100">
+            <a href="/courses"  className="mt-4 inline-block bg-white text-green-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100">
               Browse New Courses
             </a>
           </section>

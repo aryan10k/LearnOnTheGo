@@ -13,13 +13,13 @@ const Hero = () => {
                     <p className='text-gray-300 text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipiscing elit tempor ut labore</p>
                     <a
                      href="/courses"
-                        className="inline-block bg-white text-green-600 px-6 py-3 rounded-lg font-semibold text-lg hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                        className="inline-block bg-white text-green-600 px-6 py-3 rounded-lg font-semibold text-lg hover:bg-black focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">
                          Browse All Our Courses
                     </a>
                 </div>
                 {/* image section */}
                 <div className='flex md:h-[700px] items-end relative px-4 md:px-0'>
-                    <img src={HeroImg} alt="" className='w-[750px] shadow-blue-500 drop-shadow-lg' />
+                    <img src={HeroImg} alt="" className='w-[750px] shadow-green-600 drop-shadow-lg' />
                     <div className='bg-slate-200 hidden md:flex gap-3 items-center rounded-md absolute top-[35%] right-0 px-4 py-2'>
                         <div className='rounded-full bg-green-400 p-2 text-white'>
                             <User />

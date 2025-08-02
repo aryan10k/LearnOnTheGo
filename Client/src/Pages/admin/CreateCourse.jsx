@@ -49,7 +49,7 @@ const CreateCourse = () => {
     }
     return (
         <div className='p-10 md:pr-20 h-screen'>
-            <h1 className='text-2xl font-bold'>Lets Add <span className='text-blue-500'>Courses</span></h1>
+            <h1 className='text-2xl font-bold'>Lets Add <span className='text-green-600'>Courses</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius necessitatibus fugit vel distinctio architecto, ut ratione rem nobis eaque?</p>
             <div className='mt-10'>
                 <div>
@@ -88,7 +88,7 @@ const CreateCourse = () => {
                 </div>
                 <div className='flex gap-2'>
                     <Button onClick={()=>navigate('/admin/course')} variant="outline">Cancel</Button>
-                    <Button className="bg-blue-500 hover:bg-blue-600 " disabled={loading} onClick={createCourseHandler}>
+                    <Button className="bg-green-600 hover:bg-green-800 " disabled={loading} onClick={createCourseHandler}>
                     {
                         loading ? <><Loader2 className='animate-spin mr-1 h-4 w-4 '/>Please wait</> : "Create"
                     }

@@ -82,7 +82,7 @@ const Course = () => {
     })
     return (
         <div className='md:p-10 p-4 w-full h-screen'>
-            <Button className="bg-blue-500" onClick={() => navigate('create')}>Create Course</Button>
+            <Button className="bg-green-600" onClick={() => navigate('create')}>Create Course</Button>
             <Table className="mt-10">
                 <TableCaption>A list of your recent courses.</TableCaption>
                 <TableHeader>
