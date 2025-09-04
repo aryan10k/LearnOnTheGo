@@ -43,6 +43,4 @@ A full-stack **MERN LMS (Learning Management System)** platform providing role-b
 
 
 
----
 
-Do you want me to also add a **Getting Started (Installation & Setup)** section like I wrote earlier, or keep it short and showcase only features + screenshots like TravelTribe?
